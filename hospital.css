@@ -1,0 +1,73 @@
+
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+/* About section */
+.about{
+    background-image:url('about.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    border:10px solid rgb(23, 212, 23);
+}
+
+.about h1 {
+    font-weight:bold;
+    padding-top:10rem;
+}
+
+.about p{
+    font-weight:bold;
+    font-size:1rem;
+}
+
+/* Service section  */
+
+.service{
+    background-image:url("room.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+   
+    border:10px solid rgb(23, 212, 23);
+}
+
+.card{
+    background-image:url("card.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+/* Contact Section  */
+
+.contactUs{
+    background-image:url("contact.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:100vh;
+    border:10px solid rgb(23, 212, 23);
+}
+
+.formcon{
+    border:5px solid rgb(86, 248, 86);
+    border-radius: 10px 100px;
+}
+
+form input:hover , form textarea:hover{
+    background-color:black;
+
+}
+
+.end{
+    color:rgb(179, 255, 0);
+    font-weight:bold;
+}
+
+button{
+    margin-left:10rem;
+}
